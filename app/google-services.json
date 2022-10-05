@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "369025682847",
+    "firebase_url": "https://scream-ab3c7.firebaseio.com",
+    "project_id": "scream-ab3c7",
+    "storage_bucket": "scream-ab3c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369025682847:android:4c2b0b6fd8c2e7f59281aa",
+        "android_client_info": {
+          "package_name": "com.example.scream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369025682847-57o9316ou1sq1e5mkk0p8q10rhnkcpgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuSXSlsMQ4r4KH0NcKTlSUgGAnC77Tv4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369025682847-57o9316ou1sq1e5mkk0p8q10rhnkcpgp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

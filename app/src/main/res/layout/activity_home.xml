@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".home">
+
+
+    <ImageButton
+        android:id="@+id/contact1"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/black"
+        android:src="@drawable/contacts"
+        android:text="My contacts" />
+
+    <ImageButton
+        android:id="@+id/message1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/black"
+        android:src="@drawable/message"
+
+        />
+
+    <ImageButton
+        android:id="@+id/police1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="81dp"
+        android:background="@android:color/black"
+        android:src="@drawable/police11" />
+
+    <ImageButton
+        android:id="@+id/location1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message1"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="81dp"
+        android:layout_marginRight="32dp"
+        android:background="@android:color/black"
+        android:src="@drawable/location" />
+
+    <ImageButton
+        android:id="@+id/review1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/police1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="88dp"
+        android:background="@android:color/black"
+        android:src="@drawable/review" />
+
+    <ImageButton
+        android:id="@+id/logout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location1"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="88dp"
+        android:layout_marginRight="38dp"
+        android:background="@android:color/black"
+        android:src="@drawable/logout" />
+
+
+</RelativeLayout>

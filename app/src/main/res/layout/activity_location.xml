@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".location"
+    android:background="@android:color/white">
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:id="@+id/buttongetcurrentlocation"
+    android:text="Get Location"
+    />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/textlatlng"
+    android:layout_above='@+id/buttongetcurrentlocation'
+    android:textColor="@android:color/black"
+    android:textSize="30sp"
+
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textAddress"/>
+
+    <EditText
+        android:id="@+id/txt_message1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:hint="Enter Message"
+        android:textSize="18sp"
+        android:layout_below="@+id/buttongetcurrentlocation"
+        />
+
+    <EditText
+        android:id="@+id/txt_mobile_number1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Number"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/txt_message1"
+        />
+    <Button
+        android:id="@+id/button_choose_contacts1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Select Contacts"
+        android:layout_below="@+id/txt_mobile_number1"
+        />
+    <EditText
+        android:id="@+id/txt_count1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Number"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/button_choose_contacts1"
+        />
+
+    <Button
+        android:id="@+id/btn_sms1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Send Sms"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/txt_count1"/>
+
+
+
+
+</RelativeLayout>
